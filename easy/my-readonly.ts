@@ -11,10 +11,10 @@ type MyReadonly<T> = {
   readonly [Key in keyof T]: T[Key];
 };
 
-const todoOmit: MyReadonly<TodoReadonly> = {
+const todoReadonly: MyReadonly<TodoReadonly> = {
   title: 'Hey',
   description: 'foobar',
 };
 
-todoOmit.title = 'Hello'; // Error: cannot reassign a readonly property
-todoOmit.description = 'barFoo'; // Error: cannot reassign a readonly property
+todoReadonly.title = 'Hello'; // Error: cannot reassign a readonly property
+todoReadonly.description = 'barFoo'; // Error: cannot reassign a readonly property
