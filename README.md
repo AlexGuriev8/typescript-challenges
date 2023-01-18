@@ -1,3 +1,4 @@
 # typescript-challenges
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/typescript-e66xmu)
+[Challenges ⚡️](https://stackblitz.com/edit/typescript-e66xmu](https://github.com/type-challenges/type-challenges))
+
